@@ -9,4 +9,4 @@ Once upon a time there was a domain name with nothing on it, until an email was 
 
 References to Jekyll and Git might not be completely removed yet. I'll find out in time. 
 
-Until then, that is all. I'll change things when I feel like it and it should evolve into something mildly nice at some point.
+Until then, that is all. I'll change things when I can and it should evolve into something mildly nice at some point.
