@@ -11,39 +11,79 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=506577289" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4024239186" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=4151919182" id="nomq_pagesheet"/>
+  <![endif]-->
    </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- column -->
-   <div class="browser_width colelem" id="u134-bw">
-    <div id="u134"><!-- group -->
-     <div class="clearfix" id="u134_align_to_page">
-      <div class="clearfix grpelem" id="u137-7" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-       <p>Currently under development.... watch this space</p>
-       <p>&nbsp;</p>
-       <p>In the meantime here are some pictures of kittens</p>
+  <div class="breakpoint active" id="bp_infinity" data-min-width="497"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox" id="page"><!-- column -->
+    <div class="browser_width colelem shared_content" id="u134-bw" data-content-guid="u134-bw_content">
+     <div id="u134"><!-- group -->
+      <div class="clearfix" id="u134_align_to_page">
+       <div class="clearfix grpelem" id="u137-7" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+        <p>Currently under development.... watch this space</p>
+        <p>&nbsp;</p>
+        <p>In the meantime here are some pictures of kittens</p>
+       </div>
       </div>
      </div>
     </div>
+    <div class="clearfix colelem" id="pu141"><!-- group -->
+     <div class="clip_frame grpelem" id="u141"><!-- image -->
+      <img class="block temp_no_img_src" id="u141_img" data-orig-src="images/dsc03943426x283.jpg?crc=330635977" alt="" data-heightwidthratio="0.6654929577464789" data-image-width="284" data-image-height="189" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <div class="clip_frame grpelem" id="u161"><!-- image -->
+      <img class="block temp_no_img_src" id="u161_img" data-orig-src="images/dsc06863426x283.jpg?crc=4106715146" alt="" data-heightwidthratio="0.6654929577464789" data-image-width="284" data-image-height="189" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <div class="clip_frame grpelem" id="u151"><!-- image -->
+      <img class="block temp_no_img_src" id="u151_img" data-orig-src="images/dsc03977425x283.jpg?crc=3797329608" alt="" data-heightwidthratio="0.6654929577464789" data-image-width="284" data-image-height="189" src="images/blank.gif?crc=4208392903"/>
+     </div>
+    </div>
+    <a class="nonblock nontext Button clearfix colelem shared_content" id="buttonu233" href="mailto:helen@hdoherty.com" target="_blank" title="Get in touch with Helen" data-visibility="changed" style="visibility:hidden" data-content-guid="buttonu233_content"><!-- container box --><div class="clearfix grpelem" id="u234-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>Get in touch</p></div></a>
+    <div class="verticalspacer" data-offset-top="472" data-content-above-spacer="471" data-content-below-spacer="330" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
-   <div class="clip_frame colelem" id="u141"><!-- image -->
-    <img class="block" id="u141_img" src="images/dsc03943.jpg?crc=4128166971" alt="" data-heightwidthratio="0.6652892561983471" data-image-width="242" data-image-height="161"/>
+  </div>
+  <div class="breakpoint" id="bp_496" data-min-width="361" data-max-width="496"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <span class="browser_width colelem placeholder" data-placeholder-for="u134-bw_content"><!-- placeholder node --></span>
+    <div class="clip_frame colelem temp_no_id" data-orig-id="u141"><!-- image -->
+     <img class="block temp_no_id temp_no_img_src" data-orig-src="images/dsc03943301x200.jpg?crc=428052134" alt="" data-heightwidthratio="0.6644518272425249" data-image-width="301" data-image-height="200" data-orig-id="u141_img" src="images/blank.gif?crc=4208392903"/>
+    </div>
+    <div class="clip_frame colelem temp_no_id" data-orig-id="u161"><!-- image -->
+     <img class="block temp_no_id temp_no_img_src" data-orig-src="images/dsc06863302x201.jpg?crc=463821020" alt="" data-heightwidthratio="0.6644518272425249" data-image-width="301" data-image-height="200" data-orig-id="u161_img" src="images/blank.gif?crc=4208392903"/>
+    </div>
+    <div class="clip_frame colelem temp_no_id" data-orig-id="u151"><!-- image -->
+     <img class="block temp_no_id temp_no_img_src" data-orig-src="images/dsc03977302x201.jpg?crc=4224804115" alt="" data-heightwidthratio="0.6644518272425249" data-image-width="301" data-image-height="200" data-orig-id="u151_img" src="images/blank.gif?crc=4208392903"/>
+    </div>
+    <span class="nonblock nontext Button clearfix colelem placeholder" data-placeholder-for="buttonu233_content"><!-- placeholder node --></span>
+    <div class="verticalspacer" data-offset-top="917" data-content-above-spacer="917" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
-   <div class="clip_frame colelem" id="u161"><!-- image -->
-    <img class="block" id="u161_img" src="images/dsc06863.jpg?crc=140421020" alt="" data-heightwidthratio="0.6652892561983471" data-image-width="242" data-image-height="161"/>
+  </div>
+  <div class="breakpoint" id="bp_360" data-max-width="360"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <span class="browser_width colelem placeholder" data-placeholder-for="u134-bw_content"><!-- placeholder node --></span>
+    <div class="clip_frame colelem temp_no_id" data-orig-id="u141"><!-- image -->
+     <img class="block temp_no_id temp_no_img_src" data-orig-src="images/dsc03943242x161.jpg?crc=4262730677" alt="" data-heightwidthratio="0.6652892561983471" data-image-width="242" data-image-height="161" data-orig-id="u141_img" src="images/blank.gif?crc=4208392903"/>
+    </div>
+    <div class="clip_frame colelem temp_no_id" data-orig-id="u161"><!-- image -->
+     <img class="block temp_no_id temp_no_img_src" data-orig-src="images/dsc06863242x161.jpg?crc=230099455" alt="" data-heightwidthratio="0.6652892561983471" data-image-width="242" data-image-height="161" data-orig-id="u161_img" src="images/blank.gif?crc=4208392903"/>
+    </div>
+    <div class="clip_frame colelem temp_no_id" data-orig-id="u151"><!-- image -->
+     <img class="block temp_no_id temp_no_img_src" data-orig-src="images/dsc03977242x162.jpg?crc=401052695" alt="" data-heightwidthratio="0.6652892561983471" data-image-width="242" data-image-height="161" data-orig-id="u151_img" src="images/blank.gif?crc=4208392903"/>
+    </div>
+    <span class="nonblock nontext Button clearfix colelem placeholder" data-placeholder-for="buttonu233_content"><!-- placeholder node --></span>
+    <div class="verticalspacer" data-offset-top="837" data-content-above-spacer="836" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
-   <div class="clip_frame colelem" id="u151"><!-- image -->
-    <img class="block" id="u151_img" src="images/dsc03977.jpg?crc=4170672197" alt="" data-heightwidthratio="0.6652892561983471" data-image-width="242" data-image-height="161"/>
-   </div>
-   <a class="nonblock nontext Button clearfix colelem" id="buttonu233" href="mailto:helen@hdoherty.com" target="_blank" title="Get in touch with Helen" data-visibility="changed" style="visibility:hidden"><!-- container box --><div class="clearfix grpelem" id="u234-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>Get in touch</p></div></a>
-   <div class="verticalspacer" data-offset-top="837" data-content-above-spacer="836" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -56,7 +96,7 @@ var suppressMissingFileError = false
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
@@ -64,7 +104,7 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
