@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hdoherty.com" resolutions="1x" timestamp="1516546950089">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="hdoherty.com" resolutions="1x" timestamp="1516548854056">
   <folder name="css">
     <file name="site_global.css" crc="3804928928"/>
     <file name="master_a-master.css" crc="34222730" ref="index"/>
     <file name="nomq_preview_master_a-master.css" crc="4054502849" ref="index"/>
-    <file name="index.css" crc="395315166" ref="index"/>
+    <file name="index.css" crc="332996080" ref="index"/>
     <file name="nomq_index.css" crc="3925965093" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
   </folder>
@@ -708,5 +708,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3852163917" seo="true" mt="1516546812295" redirect="true"/>
+  <file name="index.html" crc="172726897" seo="true" mt="1516547994776" redirect="true"/>
 </manifest>
